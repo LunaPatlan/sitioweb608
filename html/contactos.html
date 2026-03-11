@@ -6,6 +6,50 @@
     <title>Contactos</title>
 </head>
 <body>
-    
+    <header>
+        <h2>Contactos</h2>
+    </header>
+
+    <section>
+        <form action="https://formsubmit.co/luneta0906@gmail.com" method="post">
+            <label for="">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre" 
+            required placeholder="Capturar el nombre"> <br>
+
+            <label for="">Domicilio</label>
+            <input type="text" name="Domicilio" id="Domicilio" 
+            required placeholder="Capturar domicilio"> <br>
+
+            <label for="">Email</label>
+            <input type="email" name="Correo" id="Correo" 
+            required placeholder="ej nombre@dominio.com"> <br>
+
+            <label for="">Estado Civil</label>
+            <select name="edocivil" id="edocivil">
+
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Viudo">Viudo</option>
+                <option value="Divorciado">Divorciado</option>
+
+            </select> <br>
+
+            <label for="">Sexo</label> <br>
+
+            <label for="">Masculino</label>
+            <input type="radio" name="Sexo" id="Sexo">
+            <label for="">Femenino</label>
+            <input type="radio" name="Sexo" id="Sexo"> <br>
+
+            <label for="">Comentarios</label>
+            <textarea name="Comentarios" id="Comentarios" rows="4" cols="10"></textarea> <br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+    </section>
+    <footer>
+        <h2>Todos los derechos reservados por @Luna Montserrat Patlan 2026</h2>
+    </footer>
 </body>
 </html>
