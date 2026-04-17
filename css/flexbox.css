@@ -27,9 +27,10 @@
     line-height: 75px;
  }
 
- .item
+ .item:hover
  {
     background-color: rgb(112, 105, 105);
+    color: black;
  }
 
  .contenedor_centrado
@@ -41,4 +42,52 @@
     padding: 10px;
     border: solid;
     width: 500px;
+ }
+
+  .contenedor_end
+ {
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+    background-color: #f0f4f8;
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+ }
+
+  .contenedor_spaceAround
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f0f4f8;
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+ }
+
+   .contenedor_stretch
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    justify-content: space-around;
+    background-color: #f0f4f8;
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+    height: 500px;
+ }
+
+   .contenedor_justificadocentrado
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f4f8;
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+    height: 500px;
  }
