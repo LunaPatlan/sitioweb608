@@ -95,6 +95,7 @@ nav
 
 .titulo
 {
+    padding-top: 10px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
