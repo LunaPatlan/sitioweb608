@@ -87,7 +87,7 @@ nav
 
 .menu li a:hover
 {
-    background-color: white;
+    background-color: rgb(148, 16, 16);
     border-radius: 25px;
 }
 
