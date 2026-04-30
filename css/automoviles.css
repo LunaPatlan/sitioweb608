@@ -106,6 +106,9 @@ nav
     text-align: justify;
     font-size: 16px;
     color: #111;
+     flex-grow: 1;                
+    text-align: justify;
+    margin-bottom: 15px;     
 }
 
 .imagen
@@ -135,7 +138,8 @@ nav
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 9px;
-}
+    margin-top: auto;
+}   
 
 .boton:hover
 {
@@ -148,14 +152,14 @@ nav
 .tarjeta
 {
     width:280px;
+    min-height: 470px;
     box-shadow: 0 4px 8px 0;
     border:2px solid;
     border-radius: 10px;
     padding:15px;
-    text-align: center;
-    align-items: center;
-    flex-direction:column;
-    justify-content:space-between;
+    display: flex;              
+    flex-direction: column;     
+    justify-content: space-between; 
 }
 
 .contenedor_tarjeta
@@ -172,4 +176,58 @@ footer
 {
     text-align:center;
     padding:20px;
+}
+
+/*selector id*/
+
+#marca
+{
+  margin: 15px;  
+  display: flex;      
+  flex-direction: column;     
+  align-items: center;       
+  justify-content: center;     
+}
+
+#marca img 
+{
+    width: 200px;
+    height: auto;
+}
+
+#marca h2
+{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#marca hr
+{
+    width: 100%;
+    margin: 15px 0;
+    border: none;
+    height: 4px;
+    background-color: #111;
+    border-radius: 8px;
+}
+
+.marca-titulo 
+{
+    font-family: 'Nunito', sans-serif; 
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(190, 10, 10);
+    text-align: center;
+    margin: 10px 0;
+}
+
+.marca-descripcion 
+{
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;               
+    font-size: 18px;                   
+    color: #111;                         
+    margin: 15px;      
 }
